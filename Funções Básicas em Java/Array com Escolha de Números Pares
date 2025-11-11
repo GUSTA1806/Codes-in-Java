@@ -1,0 +1,11 @@
+public class Main {
+	public static void main(String[] args) {
+	    double[] numeros = {10, 20, 21, 30, 41, 51};
+        int sum = 0;
+        for (double key : numeros){
+            if (key % 2 == 0) {
+                System.out.println(key + " É PAR"); 
+            } 
+         }
+    }
+}
