@@ -1,0 +1,11 @@
+public class Main {
+	public static void main(String[] args) {
+	    int[] num = {10, 5, 7, 12, 15};
+	    int sum = 0;
+	      for (int key : num){
+	          //sum indexValue
+	          sum += key;
+	      } 
+	      System.out.println("The sum is:" + sum);
+	}
+}
