@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int inteiro = 55;
+	   
+	    
+	        if (inteiro >= 90){
+	            System.out.println("A");
+	        }else if(inteiro >= 80){
+	            System.out.println("B");
+	        }else if(inteiro >= 70){
+	            System.out.println("C");
+	        }else if(inteiro >= 60){
+	            System.out.println("D");
+	        } else {
+	            System.out.println("F");
+	        }
+	    
+	}
+}
