@@ -1,8 +1,7 @@
-public class Main {
-    public static void main(String[] args){
-        Cachorro Cachorro1 = new Cachorro();
-        Gato Gato1 = new Gato();
-        Cachorro1.emitirSom();
-        Gato1.emitirSom();
+public class Gato extends Animal{
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Miau");
     }
 }
