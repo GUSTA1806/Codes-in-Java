@@ -1,0 +1,13 @@
+public class Moto extends Veiculo{
+
+    public Moto(String marca, String modelo){
+        super(marca, modelo);
+    }
+    public void buzinar(){
+        System.out.println("buzina: bibi");
+    }
+
+    public void mostrarInf(){
+        System.out.println("Carro:" +marca+ "-" +modelo+ "");
+    }
+}
