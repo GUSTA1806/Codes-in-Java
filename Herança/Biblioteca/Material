@@ -1,0 +1,14 @@
+public class Material{
+    String titulo;
+    String autor;
+
+    public Material(String titulo, String autor){
+        this.titulo = titulo;
+        this.autor = autor;
+
+    }
+
+    public void exibirInfo() {
+        System.out.println();
+    }
+    }
