@@ -1,0 +1,11 @@
+public class DVD extends Material {
+
+    public DVD(String titulo, String autor){
+        super(titulo, autor);
+    }
+
+    @Override
+    public void exibirInfo() {
+        System.out.println("Titulo:" + titulo + " Autor:"+ autor);
+    }
+    }
