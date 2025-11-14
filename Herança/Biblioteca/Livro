@@ -1,0 +1,11 @@
+public class Livro extends Material{
+
+    public Livro(String titulo, String autor) {
+        super(titulo, autor);
+    }
+    @Override
+    public void exibirInfo(){
+        System.out.println("Titulo:" + titulo + " Autor:" + autor);
+
+    }
+}
