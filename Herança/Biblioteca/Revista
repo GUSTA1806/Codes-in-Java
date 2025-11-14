@@ -1,0 +1,11 @@
+public class Revista extends Material{
+
+    public Revista(String Titulo, String autor){
+        super(Titulo, autor);
+    }
+
+    @Override
+    public void exibirInfo() {
+      System.out.println("Titulo:" + titulo + " Autor:" + autor);
+    }
+}
