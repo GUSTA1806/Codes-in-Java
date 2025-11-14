@@ -1,1 +1,12 @@
+public class Main {
+   public static void main(String[] args){
 
+       Livro L1 = new Livro("Harry Poter", "J.K. Rowling");
+       Revista R1 = new Revista("Turma da monica", "Mauricio de Souza");
+       DVD D1 = new DVD("Carros3", "Disney");
+
+       L1.exibirInfo();
+       R1.exibirInfo();
+       D1.exibirInfo();
+   }
+}
