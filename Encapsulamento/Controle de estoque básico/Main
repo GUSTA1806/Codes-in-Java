@@ -1,1 +1,10 @@
+public class Main {
+    public static void main(String[] args){
+     Produto p = new Produto();
+     p.setNome(" ");
+     p.setQuantidade(-1);
+     p.setPreco(0.00);
+     p.mostrarInfo();
 
+    }
+}
