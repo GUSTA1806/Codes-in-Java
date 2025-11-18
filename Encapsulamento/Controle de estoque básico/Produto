@@ -1,0 +1,49 @@
+public class Produto{
+
+    private String nome;
+    private int quantidade;
+    private double preco;
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+      if (  nome.isBlank() ){
+          System.out.println("Valor invalido!!!");
+      }else {
+          this.nome = nome;
+      }
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        if (quantidade >= 0){
+            this.quantidade = quantidade;
+        }else {
+            System.out.println("Valor Invalido!!!");
+        }
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        if (preco >= 1.00){
+            this.preco = preco;
+        }else {
+           System.out.println("Valor menor que o minimo");
+        }
+    }
+
+    public void mostrarInfo(){
+        System.out.println("Produto: " +nome);
+        System.out.println("Quantidade em Stoque: " +quantidade);
+        System.out.println("Preço: " +preco);
+    }
+}
